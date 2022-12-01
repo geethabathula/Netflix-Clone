@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  background-color: #222121d3 !important;
+}
+/* NavBar */
+.nav-image {
+  width: 130px;
+  height: 40px;
+}
+
+.nav-button-signin {
+  height: 40px;
+  width: 100px;
+  background-color: #e50915;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* Display Cards */
+.card-styling-1 {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding-bottom: 90px;
+  border-bottom: 8px solid #222;
+}
+
+.netflix-herocard-part {
+  margin-top: 150px;
+  padding: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+}
+
+.header-1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.header-4 {
+  font-size: 2.1em;
+}
+
+.header-6 {
+  font-size: 1.5em;
+}
+
+.card-text {
+  padding-top: 90px;
+}
+
+#getstarted-container {
+  height: 55px;
+  width: 700px;
+  margin-top: 25px;
+  margin-left: 20%;
+}
+
+#form-input-email {
+  border-radius: 0px;
+  font-size: 1.3em;
+  padding-left: 15px;
+}
+
+#form-input-email:focus {
+  border-color: none;
+  border-radius: 0px;
+  font-size: 1.3em;
+  padding-left: 15px;
+  box-shadow: none;
+}
+
+#form-input-button {
+  border-radius: 0px;
+  font-size: 1.3em;
+}
+
+.card-styling {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding-bottom: 90px;
+  background-color: #000000;
+  border-bottom: 8px solid #222 !important;
+}
+
+.tv-image {
+  position: relative;
+}
+
+.tv-video {
+  position: absolute;
+  top: 96px;
+  left: 75px;
+}
+
+.netflix-text-img-part {
+  margin-top: 90px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.offline-image {
+  position: relative;
+}
+
+.download-card {
+  margin-top: 25px;
+  height: 130px;
+  width: 400px;
+  padding: 5px;
+  background-color: #000000;
+  border-radius: 5px;
+  border: 5px solid #3b3b3b;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+.download-card-para-text-download {
+  color: #004f9e;
+}
+
+.download-loading {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.everywhere-image {
+  position: relative;
+}
+
+.everywhere-video {
+  position: absolute;
+  left: 110px;
+  top: -10px;
+}
+
+.everywhere-video-card {
+  width: 400px;
+  height: 350px;
+}
+
+.netflix-faq {
+  height: 300px;
+  width: 700px;
+}
+
+.card-styling-accordian {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 800px;
+  background-color: #000000;
+  border-bottom: 8px solid #222 !important;
+}
+.header-1-faq {
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.faq-para {
+  text-align: center;
+}
+
+/* Footer */
+.footer-body {
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 60px;
+}
+
+.footer-content {
+  bottom: 0px;
+  margin-left: 200px;
+  margin-right: 250px;
+  color: #757575;
+  font-size: 1em;
+}
+
+.footer-content-link {
+  text-decoration: none;
+}
