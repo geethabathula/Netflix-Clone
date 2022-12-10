@@ -99,11 +99,15 @@ body {
 .tv-image {
   position: relative;
 }
-
+.tv-image-position {
+  position: relative;
+  z-index: 30;
+}
 .tv-video {
   position: absolute;
   top: 96px;
   left: 75px;
+  z-index: 20;
 }
 
 .netflix-text-img-part {
@@ -121,7 +125,7 @@ body {
 .download-card {
   margin-top: 25px;
   height: 130px;
-  width: 40px;
+  width: 450px;
   padding: 5px;
   background-color: #000000;
   border-radius: 5px;
@@ -145,10 +149,16 @@ body {
   position: relative;
 }
 
+.everywhere-image-position {
+  position: relative;
+  z-index: 40;
+}
+
 .everywhere-video {
   position: absolute;
   left: 110px;
   top: -10px;
+  z-index: 30;
 }
 
 .everywhere-video-card {
